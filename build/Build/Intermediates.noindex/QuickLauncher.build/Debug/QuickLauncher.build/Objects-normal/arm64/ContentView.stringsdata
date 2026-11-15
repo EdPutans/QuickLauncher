@@ -1,0 +1,176 @@
+{
+  "source": "/Users/ed/Dev/QuickLauncher/QuickLauncher/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Delete selected shortcut",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Shortcut",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g. Dev in Cursor",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Action Type",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Application Name",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g. Cursor, Visual Studio Code, Finder",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose App…",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "File or Folder Path",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g. ~/Dev",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "Browse…",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shell Command (/bin/zsh -lc)",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 155
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g. cd ~/Dev && ./run-job.sh",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 157
+        }
+      },
+      {
+        "comment": "",
+        "key": "Icon",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Custom SF Symbol:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 193
+        }
+      },
+      {
+        "comment": "",
+        "key": "terminal.fill",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save & Sync Widget",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "Test Run",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 225
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select a shortcut in the sidebar or click + to add one.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 237
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* QuickLauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* QuickLauncherApp.swift */; };
+		A10000020000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000001 /* ContentView.swift */; };
+		A10000030000000000000001 /* ShortcutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000001 /* ShortcutItem.swift */; };
+		A10000040000000000000001 /* RunShortcutIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000001 /* RunShortcutIntent.swift */; };
+		A10000050000000000000001 /* QuickLauncherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000001 /* QuickLauncherWidget.swift */; };
+		A10000060000000000000001 /* ShortcutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000001 /* ShortcutItem.swift */; };
+		A10000070000000000000001 /* RunShortcutIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000001 /* RunShortcutIntent.swift */; };
+		A10000080000000000000001 /* QuickLauncherWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A30000020000000000000001 /* QuickLauncherWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000020000000000000001;
+			remoteInfo = QuickLauncherWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50000010000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000080000000000000001 /* QuickLauncherWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* QuickLauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLauncherApp.swift; sourceTree = "<group>"; };
+		A20000020000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000030000000000000001 /* ShortcutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutItem.swift; sourceTree = "<group>"; };
+		A20000040000000000000001 /* RunShortcutIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunShortcutIntent.swift; sourceTree = "<group>"; };
+		A20000050000000000000001 /* QuickLauncherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLauncherWidget.swift; sourceTree = "<group>"; };
+		A20000060000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000070000000000000001 /* QuickLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickLauncher.entitlements; sourceTree = "<group>"; };
+		A20000080000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000090000000000000001 /* QuickLauncherWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickLauncherWidget.entitlements; sourceTree = "<group>"; };
+		A30000010000000000000001 /* QuickLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000020000000000000001 /* QuickLauncherWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuickLauncherWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000020000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A80000020000000000000001 /* QuickLauncher */,
+				A80000030000000000000001 /* QuickLauncherWidget */,
+				A80000040000000000000001 /* Shared */,
+				A80000050000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80000020000000000000001 /* QuickLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* QuickLauncherApp.swift */,
+				A20000020000000000000001 /* ContentView.swift */,
+				A20000060000000000000001 /* Info.plist */,
+				A20000070000000000000001 /* QuickLauncher.entitlements */,
+			);
+			path = QuickLauncher;
+			sourceTree = "<group>";
+		};
+		A80000030000000000000001 /* QuickLauncherWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A20000050000000000000001 /* QuickLauncherWidget.swift */,
+				A20000080000000000000001 /* Info.plist */,
+				A20000090000000000000001 /* QuickLauncherWidget.entitlements */,
+			);
+			path = QuickLauncherWidget;
+			sourceTree = "<group>";
+		};
+		A80000040000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A20000030000000000000001 /* ShortcutItem.swift */,
+				A20000040000000000000001 /* RunShortcutIntent.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A80000050000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* QuickLauncher.app */,
+				A30000020000000000000001 /* QuickLauncherWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* QuickLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0000020000000000000001 /* Build configuration list for PBXNativeTarget "QuickLauncher" */;
+			buildPhases = (
+				AA0000010000000000000001 /* Sources */,
+				A70000010000000000000001 /* Frameworks */,
+				A50000010000000000000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0000010000000000000001 /* PBXTargetDependency */,
+			);
+			name = QuickLauncher;
+			productName = QuickLauncher;
+			productReference = A30000010000000000000001 /* QuickLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000020000000000000001 /* QuickLauncherWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0000030000000000000001 /* Build configuration list for PBXNativeTarget "QuickLauncherWidgetExtension" */;
+			buildPhases = (
+				AA0000020000000000000001 /* Sources */,
+				A70000020000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickLauncherWidgetExtension;
+			productName = QuickLauncherWidgetExtension;
+			productReference = A30000020000000000000001 /* QuickLauncherWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = AB0000010000000000000001 /* Build configuration list for PBXProject "QuickLauncher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80000010000000000000001;
+			productRefGroup = A80000050000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* QuickLauncher */,
+				A60000020000000000000001 /* QuickLauncherWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* QuickLauncherApp.swift in Sources */,
+				A10000020000000000000001 /* ContentView.swift in Sources */,
+				A10000030000000000000001 /* ShortcutItem.swift in Sources */,
+				A10000040000000000000001 /* RunShortcutIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0000020000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000050000000000000001 /* QuickLauncherWidget.swift in Sources */,
+				A10000060000000000000001 /* ShortcutItem.swift in Sources */,
+				A10000070000000000000001 /* RunShortcutIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0000010000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000020000000000000001 /* QuickLauncherWidgetExtension */;
+			targetProxy = A40000010000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD0000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD0000030000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QuickLauncher/QuickLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickLauncher/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AD0000040000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QuickLauncher/QuickLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickLauncher/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AD0000050000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QuickLauncherWidget/QuickLauncherWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickLauncherWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickLauncherWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickLauncher.QuickLauncherWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AD0000060000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QuickLauncherWidget/QuickLauncherWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickLauncherWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = QuickLauncherWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.QuickLauncher.QuickLauncherWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0000010000000000000001 /* Build configuration list for PBXProject "QuickLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000010000000000000001 /* Debug */,
+				AD0000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0000020000000000000001 /* Build configuration list for PBXNativeTarget "QuickLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000030000000000000001 /* Debug */,
+				AD0000040000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0000030000000000000001 /* Build configuration list for PBXNativeTarget "QuickLauncherWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0000050000000000000001 /* Debug */,
+				AD0000060000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000010000000000000001 /* Project object */;
+}
+

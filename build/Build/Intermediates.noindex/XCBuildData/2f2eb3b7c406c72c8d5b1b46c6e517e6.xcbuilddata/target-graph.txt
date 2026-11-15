@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'QuickLauncher' in project 'QuickLauncher'
+➜ Explicit dependency on target 'QuickLauncherWidgetExtension' in project 'QuickLauncher'
+Target 'QuickLauncherWidgetExtension' in project 'QuickLauncher' (no dependencies)

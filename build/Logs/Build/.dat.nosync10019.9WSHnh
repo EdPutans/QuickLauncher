@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>E62FEF6C-27E0-4EED-81F8-5C73EDB03A5A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E62FEF6C-27E0-4EED-81F8-5C73EDB03A5A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuickLauncher project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuickLauncher</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project QuickLauncher with scheme QuickLauncher and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>816432332.84589899</real>
+			<key>timeStoppedRecording</key>
+			<real>816432333.94257295</real>
+			<key>title</key>
+			<string>Building project QuickLauncher with scheme QuickLauncher and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>E62FEF6C-27E0-4EED-81F8-5C73EDB03A5A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

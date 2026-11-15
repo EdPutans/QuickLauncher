@@ -1,0 +1,48 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncher-master.dia",
+    "emit-module-dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncher-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncher-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncher-master.swiftdeps"
+  },
+  "/Users/ed/Dev/QuickLauncher/QuickLauncher/ContentView.swift" : {
+    "const-values" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/ed/Dev/QuickLauncher/QuickLauncher/QuickLauncherApp.swift" : {
+    "const-values" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.swiftconstvalues",
+    "dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.d",
+    "diagnostics" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.dia",
+    "index-unit-output-path" : "/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.o",
+    "llvm-bc" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.bc",
+    "object" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.o",
+    "swift-dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp.swiftdeps",
+    "swiftmodule" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/QuickLauncherApp~partial.swiftmodule"
+  },
+  "/Users/ed/Dev/QuickLauncher/Shared/RunShortcutIntent.swift" : {
+    "const-values" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.swiftconstvalues",
+    "dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.d",
+    "diagnostics" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.dia",
+    "index-unit-output-path" : "/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.o",
+    "llvm-bc" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.bc",
+    "object" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.o",
+    "swift-dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent.swiftdeps",
+    "swiftmodule" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/RunShortcutIntent~partial.swiftmodule"
+  },
+  "/Users/ed/Dev/QuickLauncher/Shared/ShortcutItem.swift" : {
+    "const-values" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.swiftconstvalues",
+    "dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.d",
+    "diagnostics" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.dia",
+    "index-unit-output-path" : "/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.o",
+    "llvm-bc" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.bc",
+    "object" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.o",
+    "swift-dependencies" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem.swiftdeps",
+    "swiftmodule" : "/Users/ed/Dev/QuickLauncher/build/Build/Intermediates.noindex/QuickLauncher.build/Debug/QuickLauncher.build/Objects-normal/arm64/ShortcutItem~partial.swiftmodule"
+  }
+}

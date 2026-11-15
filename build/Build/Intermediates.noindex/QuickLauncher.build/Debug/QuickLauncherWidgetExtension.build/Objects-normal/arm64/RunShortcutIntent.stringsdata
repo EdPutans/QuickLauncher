@@ -1,0 +1,48 @@
+{
+  "source": "/Users/ed/Dev/QuickLauncher/Shared/RunShortcutIntent.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Run Quick Shortcut",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 6
+        }
+      },
+      {
+        "comment": "",
+        "key": "Executes a configured shell command or opens a path with an app.",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 7
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shortcut ID",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open QuickLauncher Settings",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "Opens the QuickLauncher configuration window.",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 34
+        }
+      }
+    ]
+  },
+  "version": 1
+}
